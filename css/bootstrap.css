@@ -6757,4 +6757,32 @@ button.close {
     display: none !important;
   }
 }
+@media (max-width: 768px){
+  .nav-desktop{
+    display: none;
+  }
+}
+@media (min-width: 769px){
+  .nav-mobile{
+    display: none;
+  }
+}
+.nav-section{
+  // border: 1px solid black;
+  // margin: 10px;
+  // padding: 10px;
+}
+.nav-list{
+  list-style: none;
+  text-align: left;
+  padding-left: 0px;
+}
+.nav-section img{
+  max-width: 150px;
+  margin-top: 20px;
+}
+.nav-desktop{
+  // background-color: blue;
+}
+
 /*# sourceMappingURL=bootstrap.css.map */
