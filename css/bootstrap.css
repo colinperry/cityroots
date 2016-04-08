@@ -6783,9 +6783,9 @@ button.close {
   font-family: 'Roboto', sans-serif;
 }
 .logo-desktop{
-  // margin-left: 80px;
-  max-width: 210px;
-  margin-top: 0px;
+  max-width: 220px;
+  margin-top: 25px;
+  margin-left: 15px;
 }
 .nav-section{
   // border: 1px solid black;
@@ -6797,8 +6797,8 @@ button.close {
   text-align: justify;
 }
 .nav-section:hover{
-  // transition: background-color .8s ease;
-  // background-color: #E8E43F;
+  transition: background-color 1s ease;
+  background-color: rgba(212, 219, 213, 0.2);
 }
 .section-category{
   color: black;
@@ -6841,16 +6841,20 @@ button.close {
   width: 250px;
 }
 main{
-  background-color: #E8E43F;
+  // background-color: #E8E43F;
+  background-color: black;
   padding: 20px;
   font-family: 'Roboto', sans-serif;
-  color: white;
-  background-color: black;
+  color: white;  
+}
+.content-description{
+  padding-right: 10px;
 }
 footer{
-  background-color: #FF8F2B;
+  // background-color: #FF8F2B;
   background-color: black;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
   color: white;
 }
