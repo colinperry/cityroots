@@ -6769,6 +6769,15 @@ button.close {
 }
 .nav-mobile{
   font-family: 'Roboto', sans-serif;
+  background-color: blue;
+}
+.nav-mobile-header{
+  // padding: 2%;
+  // background-color: blue;
+  padding-top: 10px;
+}
+.navbar-default{
+  margin-bottom: 0;
 }
 .nav-desktop{
   font-family: 'Roboto', sans-serif;
@@ -6812,14 +6821,8 @@ button.close {
   line-height: 0;
   font-size: .9em;
 }
-.logo-area-mobile img{
-  max-width: 414px;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-}
 .nav-desktop{
-  background-color: #14DB6C;
+  // background-color: #14DB6C;
 }
 .email-address{
   color: black;
@@ -6834,13 +6837,22 @@ button.close {
   margin-bottom: 1px;
   margin-top: 2px;
 }
+.content-photo{
+  width: 250px;
+}
 main{
   background-color: #E8E43F;
   padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  background-color: black;
 }
 footer{
   background-color: #FF8F2B;
+  background-color: black;
   padding: 20px;
+  text-align: center;
+  color: white;
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
