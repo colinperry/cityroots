@@ -6793,12 +6793,13 @@ button.close {
   padding: 15px;
   vertical-align: top;
   margin-top: 0px;
-  border-radius: 5px;
   text-align: justify;
+  height: 100%;
+  float: right; 
 }
 .nav-section:hover{
-  transition: background-color 1s ease;
-  background-color: rgba(212, 219, 213, 0.2);
+  transition: background-color .5s ease;
+  background-color: rgba(212, 219, 213, 0.3);
 }
 .section-category{
   color: black;
