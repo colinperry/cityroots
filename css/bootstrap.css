@@ -6768,7 +6768,7 @@ button.close {
   }
 }
 .nav-mobile{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   background-color: blue;
 }
 .nav-mobile-header{
@@ -6780,7 +6780,7 @@ button.close {
   margin-bottom: 0;
 }
 .nav-desktop{
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .logo-desktop{
   max-width: 220px;
@@ -6794,33 +6794,44 @@ button.close {
   vertical-align: top;
   margin-top: 0px;
   text-align: justify;
-  height: 100%;
+  // height: 228px;
   float: right; 
 }
-.nav-section:hover{
-  transition: background-color .5s ease;
-  background-color: rgba(212, 219, 213, 0.3);
+.nav-desktop h1{
+  font-size: 1.2em;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
+// .nav-section:hover{
+//   transition: background-color .5s ease;
+//   background-color: rgba(212, 219, 213, 0.3);
+// }
 .section-category{
   color: black;
   font-size: 1em;
   text-decoration: none;
 }
 .section-category:hover{
-  // text-decoration: none;
-  color: black;
+  text-decoration: none;
+  color: #878787;
+  transition: .1s ease;
 }
 .nav-list{
   list-style: none;
   text-align: left;
   padding-left: 0px;
-  color: blue;
+  letter-spacing: .8px;
 }
 .nav-list a{
   color: black;
-  // text-decoration: none;
+  text-decoration: none;
   line-height: 0;
   font-size: .9em;
+}
+.nav-list a:hover{
+  text-decoration: none;
+  color: #878787;
+  transition: .5s ease;
 }
 .nav-desktop{
   // background-color: #14DB6C;
@@ -6845,7 +6856,7 @@ main{
   // background-color: #E8E43F;
   background-color: black;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   color: white;  
 }
 .content-description{
@@ -6855,7 +6866,7 @@ footer{
   // background-color: #FF8F2B;
   background-color: black;
   padding: 20px;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Oswald', sans-serif;
   text-align: center;
   color: white;
 }
