@@ -6849,29 +6849,7 @@ button.close {
   margin-bottom: 1px;
   margin-top: 2px;
 }
-.content-photo{
-  width: 250px;
-}
-.grid-image .description {
-position:relative;
-bottom:300px;
-// background: black;
-// opacity: .8;
-// padding-top: 120px;
-// padding-bottom: 120px;
-margin-top: 20px;
-margin-top: 20px;
-vertical-align: center;
-text-align: center;
-left:0px;
-visibility:hidden;
-}
-.grid-image:hover .description {
-visibility:visible;
-transition: background-color 0.5s ease;
-background-color: black;
-opacity: .8;
-}
+
 main{
   // background-color: #E8E43F;
   background-color: black;
