@@ -6849,6 +6849,40 @@ button.close {
   margin-bottom: 1px;
   margin-top: 2px;
 }
+.text-overlay {
+  color: white;
+  cursor: pointer;
+  display: table;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 300px;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+span.text-overlay span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.grid-image:hover span.text-overlay {
+  opacity: 1;
+}
+.grid-image:hover img{
+  opacity: .5;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+// ul.img-list li:hover span.text-content {
+//   opacity: 1;
+// }
 
 main{
   // background-color: #E8E43F;
