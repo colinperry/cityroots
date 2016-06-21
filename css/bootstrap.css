@@ -6868,7 +6868,7 @@ button.close {
   left: 0;
   position: absolute;
   top: 0;
-  height: 300px;
+  height: 475px;
   width: 100%;
   opacity: 0;
 }
@@ -6898,6 +6898,31 @@ main{
   font-family: 'Oswald', sans-serif;
   color: white; 
   padding: 0; 
+}
+.content-description{
+  padding-right: 15px;
+  padding-left: 5px;
+}
+.content-description h3{
+  letter-spacing: 1px;
+}
+@media (max-width: 767px){
+  .content-description{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.contact-container{
+  background: white;
+  color: black;
+  text-align: center;
+  border: 5px solid white;
+}
+.studio-container{
+  background: white;
+  color: black;
+  text-align: center;
+  border: 5px solid white;
 }
 footer{
   // background-color: #FF8F2B;
